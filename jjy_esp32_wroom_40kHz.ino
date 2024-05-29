@@ -1,7 +1,7 @@
 // jjy_esp32_wroom_40kHz.ino
 // 	ver.0.10    (c) 2024/05/16 by Nash　Shuji009
 //
-// G5--- 680Ω-lead(40cm) ----GND ///暫定アンテナ
+// G5---> 220ohm ---> lead(40cm) ----> GND ///暫定アンテナ
 ///   -> 330ohm -> 30cm loop antenna -> GND   
 // M(P1~P4) = -1 / 255  200ms
 // 0 = 0                800ms
