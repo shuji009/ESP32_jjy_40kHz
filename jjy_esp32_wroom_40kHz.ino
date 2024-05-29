@@ -1,11 +1,10 @@
 // jjy_esp32_wroom_40kHz.ino
 // 	ver.0.10    (c) 2024/05/16 by Nash　Shuji009
 //
-// G5---> 220ohm ---> lead(40cm) ----> GND ///暫定アンテナ
-///   -> 330ohm -> 30cm loop antenna -> GND   
+// G5---> 220ohm ---> lead(40cm) loop antenna　----> GND ///暫定アンテナ
 // M(P1~P4) = -1 / 255  200ms
 // 0 = 0                800ms
-// 1= 1                 500ms
+// 1 = 1                500ms
 //
 #include <Arduino.h>
 #include <driver/ledc.h>
